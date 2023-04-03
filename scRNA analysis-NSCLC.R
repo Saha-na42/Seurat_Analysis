@@ -13,7 +13,7 @@ library(hdf5r)
 
 #Loading the dataset 
 
-lc<-Read10X_h5(filename = "/Users/sahanabaskar/Desktop/40k_NSCLC_DTC_3p_HT_nextgem_Multiplex_count_raw_feature_bc_matrix.h5")
+lc<-Read10X_h5(filename = "../40k_NSCLC_DTC_3p_HT_nextgem_Multiplex_count_raw_feature_bc_matrix.h5")
 
 #Selecting gene expression from the modalities
 str(lc)
